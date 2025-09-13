@@ -61,11 +61,11 @@ const Skills = () => {
               <div className='pr-4'>
                 <h2 className='leading-tight text-center text-lg md:text-xl'>Qualification</h2>
                 <p className='text-sm leading-tight font-thin'>
-                   Diploma in  : Computer Science Engineering
+                   ADCA  : Advance Diploma in Computer Application
                 </p>
                 <ul className='text-sm p-2'>
-                  <li>1.  12th from HBSE Board :- G.M.Sr.Sec.School</li>
-                  <li>2.  Over All Diploma prasentage are (78%)
+                <li>1.  12th from HBSE Board :- G.M.Sr.Sec.School</li>
+                  <li>2.  Graduatetion prasentage are (70%)
                   </li>
                 </ul>
               </div>
