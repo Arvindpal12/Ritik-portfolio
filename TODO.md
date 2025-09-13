@@ -1,0 +1,4 @@
+- [x] Make qualification section responsive: change flex to flex-col on mobile, row on tablet and laptop/desktop, adjust gap and padding, align to start
+- [x] Make text responsive: add breakpoints for better display on tab, mobile, laptop, responsive padding
+- [x] Fix image classes: set to original size (w-auto h-auto), center on all devices
+- [x] Keep qualification text in one line: make ul flex-row with wrap for responsiveness

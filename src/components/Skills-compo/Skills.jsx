@@ -52,20 +52,20 @@ const Skills = () => {
          
         </div>
         <div >
-          <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center '>
+          <div className='flex flex-col md:flex-row gap-4 md:gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-2 md:p-4 items-start '>
             {/* <FaGoogle color='#4285FA' size={50} /> */}
-            <div className=' flex flex-wrap group [perspective:1000px] w-100 h-100' >
-              <img className='w-100 h-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
+            <div className=' flex flex-wrap group [perspective:1000px] w-full h-auto' >
+              <img className='w-auto h-auto mx-auto transition-transform duration-700 group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]' src={avtar} alt="" />
             </div>
             <span className='text-white'>
-              <div className='pr-4'>
+              <div className='md:pr-4'>
                 <h2 className='leading-tight text-center text-lg md:text-xl'>Qualification</h2>
-                <p className='text-sm leading-tight font-thin'>
+                <p className='text-xs sm:text-sm md:text-base leading-tight font-thin'>
                    ADCA  : Advance Diploma in Computer Application
                 </p>
-                <ul className='text-sm p-2'>
-                <li>1.  12th from HBSE Board :- G.M.Sr.Sec.School</li>
-                  <li>2.  Graduatetion prasentage are (70%)
+                <ul className='text-xs sm:text-sm md:text-base p-2 flex flex-row flex-wrap gap-4'>
+                <li className='text-xs sm:text-sm md:text-base'>1.  12th from HBSE Board :- G.M.Sr.Sec.School</li>
+                  <li className='text-xs sm:text-sm md:text-base'>2.  Graduatetion prasentage are (70%)
                   </li>
                 </ul>
               </div>
